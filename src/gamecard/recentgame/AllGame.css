@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .screenAG {
+    @apply min-h-0 flex flex-col bg-white overflow-x-hidden relative mt-5 p-10;
+  }
+
+  .mainAG {
+    @apply text-[#510C1E] font-serif font-bold
+  }
+}

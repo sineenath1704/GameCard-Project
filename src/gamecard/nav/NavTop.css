@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .screenNavTop {
+    @apply min-h-0 flex flex-col bg-white overflow-x-hidden relative;
+    box-shadow: 0 4px 6px 0 #711e80;
+  }
+
+  .LogoNav {
+    @apply w-full max-w-[200px] m-2 ml-10 mr-auto;
+  }
+
+  .MenuBar {
+    @apply w-10 h-10 rounded-full bg-gradient-to-r from-[#F37EBF] to-[#392A73] flex flex-col justify-center items-center space-y-1 shadow-lg cursor-pointer;
+    @apply ml-auto m-5 mr-10;
+  }
+
+  .TabMenu {
+    @apply w-auto h-10 rounded-full bg-gradient-to-r from-[#F37EBF] to-[#392A73];
+    @apply absolute right-full top-1/2 -translate-y-1/2 mr-4;
+    @apply flex items-center justify-center space-x-4 px-4;
+  }
+
+  .TextNav {
+    @apply font-serif font-bold text-white text-[10px] px-5 
+  }
+}
