@@ -4,10 +4,34 @@
 
 @layer components {
   .screenAG {
-    @apply min-h-0 flex flex-col bg-white overflow-x-hidden relative mt-5 p-10;
+    @apply min-h-0 flex flex-col bg-white overflow-x-hidden relative  p-10;
   }
 
   .mainAG {
-    @apply text-[#510C1E] font-serif font-bold
+    @apply text-[#510C1E] font-averia font-bold text-2xl ml-5;
+  }
+
+  .BoxAGF {
+    @apply w-[100%]  max-w-[150px] h-[200px] bg-white mx-1 ml-5 mt-10 cursor-pointer border-2 rounded-xl transition-all duration-300 ease-in-out hover:scale-110;
+    @apply shadow-[5px_5px_0px] border-black shadow-[#FBC601] text-[#FBC601] ;
+  }
+
+  .BoxAGC {
+    @apply w-[100%]  max-w-[150px] h-[200px] bg-white mx-1 ml-5 mt-10 cursor-pointer border-2 rounded-xl transition-all duration-300 ease-in-out hover:scale-110;
+    @apply shadow-[5px_5px_0px] border-black shadow-[#EFA6CA] text-[#EFA6CA];
+  }  
+
+  .BoxAGFam {
+    @apply w-[100%]  max-w-[150px] h-[200px] bg-white mx-1 ml-5 mt-10 cursor-pointer border-2 rounded-xl transition-all duration-300 ease-in-out hover:scale-110;
+    @apply shadow-[5px_5px_0px] border-black shadow-[#782088] text-[#782088];
+  }
+
+  .BoxAGA {
+    @apply w-[100%]  max-w-[150px] h-[200px] bg-white mx-1 ml-5 mt-10 cursor-pointer border-2 rounded-xl transition-all duration-300 ease-in-out hover:scale-110;
+    @apply shadow-[5px_5px_0px] border-black shadow-[#9E1B1D] text-[#9E1B1D];
+  }
+  
+  .TextBoxAG {
+    @apply text-wrap font-averia font-bold text-2xl text-left justify-center ;
   }
 }

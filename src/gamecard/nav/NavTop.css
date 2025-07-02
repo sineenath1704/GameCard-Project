@@ -24,6 +24,6 @@
   }
 
   .TextNav {
-    @apply font-serif font-bold text-white text-[10px] px-5 
+    @apply font-averia font-bold text-white text-[10px] px-5 
   }
 }

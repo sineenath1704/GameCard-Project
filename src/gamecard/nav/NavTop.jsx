@@ -10,7 +10,7 @@ const NavTop = () => {
       <div className='screenNavTop'>
         <div className='flex'>
 
-          <img src="/GameCard-Project/picture/Logo.png" alt="Logo" className="LogoNav" />
+          <img src="/picture/Logo.png" alt="Logo" className="LogoNav" />
 
           <div className='relative'>
             <div className='MenuBar' onClick={() => setMenuOpen(!menuOpen)}>
@@ -21,7 +21,7 @@ const NavTop = () => {
 
             {menuOpen && (
               <div className="TabMenu">
-                <a href="" className='TextNav'>HOME</a>
+                {/* <a href="" className='TextNav'>HOME</a> */}
                 <a href="" className='TextNav'>DISCORD</a>
                 <a href="" className='TextNav'>HELP</a>
               </div>

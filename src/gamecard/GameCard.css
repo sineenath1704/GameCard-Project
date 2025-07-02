@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* ทำให้การ์ดอยู่กลางหน้าจอ */
-    background-color: #f0f2f5;
     font-family: 'Arial', sans-serif;
 }
 
@@ -24,7 +23,6 @@
     transition: transform 0.6s; /* เพิ่ม transition สำหรับการพลิก */
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    background-color: #fff; /* สีพื้นหลังการ์ด */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,8 +55,7 @@
 }
 
 .game-card-back {
-    transform: rotateY(180deg); /* ด้านหลังจะถูกพลิกกลับ */
-    background: linear-gradient(135deg, #a8ff78, #78ffd6); /* สีสันด้านหลัง */
+    transform: rotateY(180deg); /* ด้านหลังจะถูกพลิกกลับ */  
     color: #333;
     text-align: center;
 }
@@ -68,7 +65,7 @@
 .truth-button,
 .dare-button,
 .play-again-button {
-    background-color: #ff6b6b;
+    background-color: #9E1B1D;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -92,7 +89,7 @@
 .truth-button:hover,
 .dare-button:hover,
 .play-again-button:hover {
-    background-color: #e65a5a;
+    background-color: #c82333;
 }
 
 .truth-button:hover { background-color: #218838; }

@@ -1,7 +1,7 @@
 // GameCard.jsx
 import React, { useState, useEffect } from 'react';
 import './GameCard.css'; // เราจะสร้างไฟล์ CSS สำหรับการออกแบบภายหลัง
-import { categories } from './game';
+import { categories } from './dataGame/Game';
 
 function GameCard() {
     // ดึงข้อมูลเกม Truth or Dare I มาใช้งาน

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .screenWelcome {
+        @apply min-h-0 flex flex-col  overflow-x-hidden relative mt-10;
+    }
+
+    .BoxMainWelcome {
+        @apply  m-5 ml-10 mr-10 mb-10 flex flex-wrap 
+    }
+    
+    .BoxWelcome1 {
+        @apply  w-[100%] max-w-[50%] 
+    }
+    
+    .BoxWelcome2 {
+        @apply  w-[100%] max-w-[40%] ml-auto
+    }
+
+    .img {
+        @apply w-[100%] max-w-[500px] ml-auto
+    }
+
+    .TextWelcome {
+        @apply font-averia text-[#4D0B1D]
+    }
+}
